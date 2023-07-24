@@ -80,7 +80,7 @@
             <div class="inputbox">
                 <div class="box">
                     <label for="password">password</label>
-                    <input type="text" placeholder="password" name="password">
+                    <input type="password" placeholder="password" name="password">
 
                 </div>
                 <span   class="text-error">

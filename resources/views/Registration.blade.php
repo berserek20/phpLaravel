@@ -97,7 +97,7 @@
                 <div class="box">
 
                     <label for="password">password</label>
-                    <input type="text" placeholder="password" name="password">
+                    <input type="password" placeholder="password" name="password">
                 </div>
                 <span   class="text-error">
                     @error('password')
@@ -109,7 +109,7 @@
             <div class="inputbox">
                 <div class="box">
                     <label for="confirm-password">confirm password</label>
-                    <input type="text" placeholder="confirm password" name="confirm-password">
+                    <input type="password" placeholder="confirm password" name="confirm-password">
                 </div>
                 <span   class="text-error">
                     @error('confirm-password')

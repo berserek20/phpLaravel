@@ -16,7 +16,7 @@ class RegistrationController extends Controller
         return    $req->validate([
             'name'=>            ['required',
                                 'regex:/^[a-zA-Z]+$/'],
-            'email'=>           'required|email',
+            'email'=>           'required|email|unique:users',
             'password'=>    [   'required',
                                 'string',
                                 'max:255',
